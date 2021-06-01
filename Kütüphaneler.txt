@@ -1,0 +1,6 @@
+﻿Identity => Sizin icin hazır yetkilendirme ve rol sisteminin Veritabanına Microsoft tarafından dahil edilmesidir...
+
+Entities
+****
+Microsoft.AspNetCore.Identity => Identity işlemleri icin.. Burada dikkat edin Core olmayan bir Identity Package'ini referans almamalısınız..
+Microsoft.Extensions.Identity.Stores => NetCore MVC'den ve EF'ten bagımsız bir katmanda Core Identity yapısı kullanılacaksa Identity kütüphanesinin yanında Stores kütüphanesi de indirilmeli...
