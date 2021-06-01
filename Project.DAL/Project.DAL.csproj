@@ -5,8 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Context\" />
-    <Folder Include="Repositories\Abstracts\" />
     <Folder Include="Repositories\Concretes\" />
   </ItemGroup>
 
