@@ -33,6 +33,8 @@ namespace Project.DAL.Repositories.Abstracts
         T FirstOrDefault(Expression<Func<T, bool>> exp);
         object Select(Expression<Func<T, object>> exp);
 
+        object SelectViaClass<X>(Expression<Func<T, X>> exp);
+
 
         //Find Command
         T Find(int id);
