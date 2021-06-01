@@ -7,6 +7,8 @@ using System.Text;
 
 namespace Project.ENTITIES.Models
 {
+    //Asagıdaki yapıda IdentityUser sınıfına generic int vermemizin sebebi sudur; normal şartlarda Identity yapısı bütün primary key'leri Sql'e nvarchar olarak gönderir...Ancak siz IdentityUser'a generic olarak bir int tipi verdiginizde Identity yapısının olusturacagı tablolar int tipinde bir primary key'e sahip olacaklardır...
+
     public class AppUser:IdentityUser<int>,IEntity
     {
         public int ID { get; set; }

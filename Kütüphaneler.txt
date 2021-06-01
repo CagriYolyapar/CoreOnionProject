@@ -4,3 +4,9 @@ Entities
 ****
 Microsoft.AspNetCore.Identity => Identity işlemleri icin.. Burada dikkat edin Core olmayan bir Identity Package'ini referans almamalısınız..
 Microsoft.Extensions.Identity.Stores => NetCore MVC'den ve EF'ten bagımsız bir katmanda Core Identity yapısı kullanılacaksa Identity kütüphanesinin yanında Stores kütüphanesi de indirilmeli...
+
+-----------------
+Map
+****
+Microsoft.EntityFrameworkCore => EF işlemlerinin temeli bu kütüphaneden baslar...
+Microsoft.EntityFrameworkCore.SqlServer => Core'da IEntityTypeConfiguration Interface'i icerisinde HasColumnName ve benzeri metotların gelebilmesi icin ihtiyacımız olan kütüphanedir...
