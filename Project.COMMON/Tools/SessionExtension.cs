@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Project.COMMON.Tools
 {
-    //Todo:BLL katmanına gecilecek
+   
     public static class SessionExtension
     {
         public static void SetObject(this ISession session,string key,object value)

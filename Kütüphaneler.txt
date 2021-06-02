@@ -26,3 +26,14 @@ SessionExtension sınıfı icin...Dikkat edin artık burada farklı bir katmanda
 Microsoft.AspNetCore.HTTP.Features  => ISession tipini kullanmanızı saglar...
 Microsoft.AspNetCore.HTTP.Extensions => Common katmanında ISession tipinin SetString ve GetString metotlarına ulasabilmenizi saglar...
 Newtonsoft.JSON  => Json Serialize işlemleri icin
+------------------
+BLL
+****
+Microsoft.AspNet.Identity => Identity Service Injection'i icin indirmemiz gereken kütüphane
+Microsoft.EntityFrameworkCore.SqlServer => Bizim SqlServerOption'larımızı inject edebilmemiz icin gereken kütüphane
+System.Configuration.ConfigurationManager => Mevcut calısan projenin configuration'inina baska katmanlardan ulasabilmek icin indirmemiz gereken kütüphane
+------------------
+UI
+****
+Microsoft.EntityFrameworkCore.Design => Migration icin Tools kütüphanesini DAL'da ekleyerek ayrı bir katmanda bunu yaptığımızdan dolayı o Tools'a destek verebilmesi icin UI'a bu Design kütüphanesinin indirilmesi gerekir...
+Microsoft.EntityFrameworkCore.SqlServer => Sql işlemlerinin yapılabilmesine olanak saglar....
